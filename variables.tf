@@ -18,3 +18,4 @@ variable "hostname" {
   type        = string
   description = "Hostname"
 }
+

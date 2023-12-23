@@ -1,0 +1,5 @@
+instance_type        = "t2.micro"
+project_name         = "shopping-app"
+project_env          = "prod"
+hostname_domain_name = "breakingbad.online"
+hostname             = "shopping-app"

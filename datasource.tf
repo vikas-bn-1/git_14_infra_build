@@ -3,7 +3,7 @@ data "aws_ami" "image" {
   owners           = ["self"]
 
   filter {
-    name   = "Name"
+    name   = "name"
     values = ["${var.project_name}-${var.project_env}-*"]
   }
 
